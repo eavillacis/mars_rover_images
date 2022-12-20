@@ -1,0 +1,15 @@
+.photosListWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin: 1rem;
+}
+
+@media (max-width: 480px) {
+  .image {
+    width: 300px;
+  }
+}
